@@ -1,0 +1,40 @@
+# Local dependencies and Python caches
+/vendor/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build outputs: publish exe files through GitHub Releases
+/build/
+/dist/
+/dist_*/
+*.exe
+*.dll
+/packaged*_test.txt
+
+# Local images, videos and processing results
+/cleaned_*/
+batch_report.json
+*.tracking.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+# Local settings and credentials
+.env
+.env.*
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
